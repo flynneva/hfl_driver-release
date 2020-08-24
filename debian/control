@@ -1,0 +1,12 @@
+Source: ros-noetic-hfl-driver
+Section: misc
+Priority: optional
+Maintainer: Evan Flynn <evan.flynn@continental.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-angles, ros-noetic-camera-info-manager, ros-noetic-catkin, ros-noetic-cv-bridge, ros-noetic-image-transport, ros-noetic-message-generation, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2, ros-noetic-tf2-geometry-msgs, ros-noetic-udp-com, ros-noetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-hfl-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-angles, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-image-transport, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2, ros-noetic-tf2-geometry-msgs, ros-noetic-udp-com, ros-noetic-visualization-msgs
+Description: The hfl package
