@@ -1,0 +1,12 @@
+Source: ros-kinetic-hfl-driver
+Section: misc
+Priority: optional
+Maintainer: Evan Flynn <evan.flynn@continental.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-angles, ros-kinetic-camera-info-manager, ros-kinetic-catkin, ros-kinetic-cv-bridge, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-geometry, ros-kinetic-image-transport, ros-kinetic-message-generation, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-tf2, ros-kinetic-tf2-geometry-msgs, ros-kinetic-udp-com, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hfl-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-angles, ros-kinetic-camera-info-manager, ros-kinetic-cv-bridge, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-image-geometry, ros-kinetic-image-transport, ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-tf2, ros-kinetic-tf2-geometry-msgs, ros-kinetic-udp-com, ros-kinetic-visualization-msgs
+Description: The hfl package
