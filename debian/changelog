@@ -1,0 +1,130 @@
+ros-melodic-hfl-driver (0.1.0-1bionic) bionic; urgency=high
+
+  * remove kinetic from CI due to EOL
+  * rotation fix, pointcloud size fix, telemetry parsing
+  * bump ros actions
+  * fixed documentation
+  * removed include tof
+  * removed msg gen
+  * removed legacy code & clean up cmakelist
+  * fix some links in readme
+  * add link to continentals website
+  * add note to readme
+  * update readme
+  * Contributors: Evan Flynn, flynneva
+
+ -- Evan Flynn <evan.flynn@continental.com>  Thu, 18 Mar 2021 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.20-1bionic) bionic; urgency=high
+
+  * fixed package.xml for rosdep install
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Tue, 15 Sep 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.19-1bionic) bionic; urgency=high
+
+  * 0.0.19
+  * Update changelog
+  * removed hfl_utilties ros package.xml
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 11 Sep 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.18-1bionic) bionic; urgency=high
+
+  * put in some dummy tests for now
+  * fixed one unit test
+  * hfl_utilities needs to be a SHARED lib
+  * missing image_geometry in package.xml
+  * fixed merge mistake
+  * Merge branch 'updates' into ros1/devel
+  * added comment referencing initMatrix function
+  * merge in public github changes
+  * 
+    
+      * various updates to pointcloud output
+    
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 11 Sep 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.17-1bionic) bionic; urgency=high
+
+  * fixed build export depend typo
+  * add dynamic_reconfigure to build depend
+  * 0.0.17
+  * Update changelog
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 28 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.16-1bionic) bionic; urgency=high
+
+  * add tf to package.xml
+  * Update CMakeLists.txt
+  * add tf to find
+  * add tf2_geometry_msgs to find
+  * fixed tf build error
+  * clean up
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 28 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.15-1bionic) bionic; urgency=high
+
+  * open rosrepo pr automatically
+  * Update changelog
+  * fixed release workflow typo
+  * Contributors: Evan Flynn, flynneva
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 28 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.14-1bionic) bionic; urgency=high
+
+  * fixed release workflow typo
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 28 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.13-1bionic) bionic; urgency=high
+
+  * fixed roslint error
+
+ -- Evan Flynn <evan.flynn@continental.com>  Fri, 28 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.12-1bionic) bionic; urgency=high
+
+  * removed unnecessary install files
+  * fix udp_com linking error
+  * update suppoted platforms
+  * test depend roslint
+  * move roslint within conditional
+  * fixed rostest and arpa warning
+  * should be catkin_add_gtest
+  * removed arpa
+  * fixed for kinetic
+  * fixed cmake warnings and kinetic error
+  * added archive destination to install step
+  * switch back to action-ros-ci
+  * switch back to manual ros ci
+  * gh-pages should be html directory
+  * Update ros_ci.yml
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Mon, 24 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.11-1bionic) bionic; urgency=high
+
+  * updated release workflow
+  * Contributors: Evan Flynn
+
+ -- Evan Flynn <evan.flynn@continental.com>  Tue, 04 Aug 2020 07:00:00 -0000
+
+ros-melodic-hfl-driver (0.0.10-1bionic) bionic; urgency=high
+
+
+
+ -- Evan Flynn <evan.flynn@continental.com>  Tue, 04 Aug 2020 07:00:00 -0000
+
+
